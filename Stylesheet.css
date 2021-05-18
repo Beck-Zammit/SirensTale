@@ -1,0 +1,12 @@
+div.homeimage {
+ background-image: url(docs/Website\ Artwork/background-image);
+ background-color: #cccccc;
+}
+
+html { 
+  background: url(docs/Website\ Artwork/backgroundartwork.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,12 +1,28 @@
-div.homeimage {
- background-image: url(docs/Website\ Artwork/background-image);
- background-color: #cccccc;
+body html{
+  margin:0;
+  padding:0;
 }
 
-html { 
-  background: url(docs/Website\ Artwork/backgroundartwork.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body{
+  font-family: 'Courier New', Courier, monospace !important;
+  align-items: center;
 }
+
+.backgroundimg{
+  background-image:url(file:///Users/rebeccazammit/Documents/GitHub/SirensTale/docs/Website%20Artwork/Featured%20Image%20Update.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.nightbackground{
+    background-color: #3a1f04;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding-right: 30%;
+}
+
